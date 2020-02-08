@@ -1,12 +1,13 @@
 import React from "react";
 import download from "./assets/download.jpg";
 import Navbar from "./Navbar";
-import Dropdown from "./AccountDropdown";
+import LoginForm from "./LoginForm";
 function App() {
   return (
     <div id="app" className="antialiased text-gray-900">
       <div className="bg-gray-200 min-h-screen">
         <Navbar />
+        <LoginForm />
       </div>
     </div>
   );
