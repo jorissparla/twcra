@@ -10912,6 +10912,19 @@ video {
   transition-duration: 1000ms;
 }
 
+ul {
+  list-style: disc;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+p {
+  margin: 10px;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
